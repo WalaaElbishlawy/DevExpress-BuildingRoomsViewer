@@ -1,16 +1,20 @@
 # DevExpress-BuildingRoomViewer
-# Usage : 
-Use winform controls of devexpress to do Building Room Viewer. 
-# Requirements :
-•	You must use Treelist Control ( 1 at least )
 
-•	All controls must be bound to database (retrieves data from sql server) 
+## Usage
+This project demonstrates how to create a Building Room Viewer application using DevExpress WinForms controls.
 
-•	Solution must build correctly 
+## Requirements
+- **Treelist Control**: At least one `TreeList` control must be used.
+- **Database Binding**: All controls should be bound to a SQL Server database.
+- **Manual Binding**: Controls cannot be bound using the data wizard; use other methods for data binding.
+- **Build**: Ensure that the solution builds correctly without errors.
 
-•	Control CANNOT be bound to database using data wizard use any other method 
+## Project Description
+The application includes a screen that displays room data for a selected building. 
 
-# Project:
-Doing a screen that contain data of Rooms for specific Building. 
+### Features
+- **Building Selection**: A combo box allows the user to choose a building.
+- **Room Display**: A `TreeList` control updates to show rooms for the selected building.
 
-Where you have a combo box to choose building and the Treelist below updates to show rooms for this building. 
+## Database
+- The application uses a SQL Server database. Make sure to restore the provided `.bak` file to your SQL Server instance to set up the database.
