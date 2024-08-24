@@ -10,6 +10,7 @@ Use winform controls of devexpress to do Building Room Viewer.
 
 •	Control CANNOT be bound to database using data wizard use any other method 
 
-Example:
+# Project:
 Doing a screen that contain data of Rooms for specific Building. 
+
 Where you have a combo box to choose building and the Treelist below updates to show rooms for this building. 
